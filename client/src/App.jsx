@@ -1,10 +1,10 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
-import NavigationBar from '@components/Navigation/NavigationBar'
-import Home from '@components/Home/Home'
-import About from '@components/About/About'
-import Services from '@components/Services/Services'
-import Footer from '@components/Footer/Footer'
+import NavigationBar from '@components/Navigation/NavigationBar.jsx'
+import Home from '@components/Home/Home.jsx'
+import About from '@components/About/About.jsx'
+import Services from '@components/Services/Services.jsx'
+import Footer from '@components/Footer/Footer.jsx'
 
 function App() {
 
