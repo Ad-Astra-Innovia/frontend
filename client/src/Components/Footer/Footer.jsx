@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import 'react'
 import styled from 'styled-components'
 
