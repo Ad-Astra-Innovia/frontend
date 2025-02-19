@@ -14,14 +14,15 @@ const FooterSection = styled.footer`
         margin-right: 20px;
     } */
 
-    width: 100vw;  /* Ensures full width */
     height: 22vh;
-    padding: 20px;
+    width: 100%;
+    padding: 15px;
     position: relative;
+    left: -15px;
     background-color: hsla(238, 94%, 80%, 0.493);
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Centers text vertically */
+    justify-content: center;
     align-items: center;
     text-align: center;
 
@@ -35,7 +36,7 @@ const FooterSection = styled.footer`
         padding: 0;
         margin: 0;
         display: flex;
-        gap: 20px; /* Spacing between items */
+        gap: 20px;
         flex-wrap: wrap;
         justify-content: center;
     }
@@ -57,8 +58,8 @@ const FooterSection = styled.footer`
 const Footer = () => {
 return (
     <FooterSection>
-        <p>Let’s Build the Future of Education Together!
-        Interested in bringing digital transformation to your school? Contact us today and let’s discuss how Ad Astra Innovia can help.</p>
+        <p><strong>Let's Build the Future of Education Together! </strong>
+        Interested in bringing digital transformation to your school? Contact us today and let's discuss how Ad Astra Innovia can help.</p>
         <ul>
             <li>📍 Location: Nairobi, Kenya</li>
             <li>📧 Email: <a href="mailto:erickgitahi@gmail.com">hello@adastrainnovia.com</a></li>

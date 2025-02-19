@@ -140,10 +140,13 @@ export const Section = styled.section`
         padding: 10px 20px;
         border-radius: 5px;
         text-decoration: none;
+        transition: all 0.1s ease-in-out;
     }
 
     a:hover {
         background-color: hsla(237, 100%, 70%, 0.9);
+        text-decoration: none;
+        scale: 1.5;
     }
 
     p {

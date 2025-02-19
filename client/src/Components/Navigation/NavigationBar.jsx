@@ -20,8 +20,24 @@ const Nav = styled.nav`
             display: inline;
             list-style-type: none;
         }
+        
+        /* CTA button */
+        ul li.button a {
+            cursor: pointer;
+            display: inline-block;
+            background-color: hsla(237, 100%, 70%, 0.667);
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        ul li.button a:hover {
+            background-color: hsla(237, 100%, 70%, 0.9);
+            text-decoration: none;
+        }
+
         ul li + li {
-            margin-left: 10px;
+            margin-left: 15px;
         }
         a:hover {
             text-decoration: underline;
@@ -45,6 +61,7 @@ const NavigationBar = () => {
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/about">About</Link></li>
                 <li><Link to="/services">Services</Link></li>
+                <li className="button"><a>Request a Quote</a></li>
             </ul>
         </Nav>
     </div>
