@@ -25,14 +25,14 @@ const Nav = styled.nav`
         ul li.button a {
             cursor: pointer;
             display: inline-block;
-            background-color: hsla(237, 100%, 70%, 0.667);
+            background-color: hsla(237, 100%, 70%, 0.9);
             color: #fff;
             padding: 10px 20px;
             border-radius: 5px;
         }
 
         ul li.button a:hover {
-            background-color: hsla(237, 100%, 70%, 0.9);
+            background-color: hsla(237, 100%, 70%, 0.667);
             text-decoration: none;
         }
 

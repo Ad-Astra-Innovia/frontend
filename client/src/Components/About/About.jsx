@@ -7,6 +7,9 @@ const About = () => {
   return (
     <Wrapper>
       <HeroSection style={{ height: '90vh'}}>
+        <ImageBox  style={{ width: '600px', height: '400px', borderRadius: '5px', alignContent: 'center'}}>
+          <img src='./../../../public/outdoor learning.jpg' alt="" />
+        </ImageBox>
         <div className="hero-text">
           <h2>Empowering the Future of Education Through Technology</h2>
           <h1>About Us | Ad Astra Innovia</h1>
@@ -17,9 +20,6 @@ const About = () => {
           {/*Todo: feature to send a pdf quote on services and value exchanged.*/}
           <a href="/services#pricing">Join the Move</a>
         </div>
-        <ImageBox  style={{ width: '600px', height: '400px', borderRadius: '5px', alignContent: 'center'}}>
-          <img src='./../../../public/outdoor learning.jpg' alt="" />
-        </ImageBox>
       </HeroSection>
       <EthosSection>
         <div className="mission-and-vision-text">

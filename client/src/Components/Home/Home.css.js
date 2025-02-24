@@ -47,8 +47,8 @@ import styled from "styled-components";
 export const HeroSection = styled.div`
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    gap: 100px;
+    justify-content: center;
+    gap: 50px;
     align-items: center;
     height: 100vh;
 
@@ -64,14 +64,14 @@ export const HeroSection = styled.div`
             color: hsla(237, 100%, 70%, 0.667);
         }
         a {
-            background-color: hsla(237, 100%, 70%, 0.667);
+            background-color: hsla(237, 100%, 70%, 0.9);
             color: white;
             padding: 10px 20px;
             border-radius: 5px;
             text-decoration: none;
         }
         a:hover {
-            background-color: hsla(237, 100%, 70%, 0.9);
+            background-color: hsla(237, 100%, 70%, 0.667);
         }
     }
 `
