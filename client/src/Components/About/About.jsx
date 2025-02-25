@@ -32,8 +32,21 @@ const About = () => {
         </div>
       </EthosSection>
       <Section>
-        <div></div>
-        <div></div>
+        <div>
+          <h1>What We Offer.</h1>
+          <p>At Ad Astra Innovia, we are committed to providing the best digital solutions for schools, colleges, and universities. Our services include:</p>
+
+          {/* Build cards for the offers. */}
+          <ul>
+            <li>Custom-built websites</li>
+            <li>AI-powered learning assistants</li>
+            <li>Digital education platforms</li>
+            <li>And more!</li>
+          </ul>
+          {/* End cards on offers. */}
+
+          <p>Our team of experts will work with you to understand your unique needs and develop a tailored solution that meets your goals. Whether you are looking to improve student engagement, streamline administrative processes, or enhance the learning experience, we have the tools and expertise to help you succeed.</p>
+        </div>
       </Section>
     </Wrapper>
   )

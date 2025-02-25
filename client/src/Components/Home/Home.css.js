@@ -48,6 +48,7 @@ export const HeroSection = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding: 0 50px;
     gap: 50px;
     align-items: center;
     height: 100vh;
@@ -87,6 +88,7 @@ export const ImageBox = styled.div`
 export const Section = styled.section`
     display: flex;
     flex-direction: row;
+    padding: 0 50px;
     gap: 50px;
     margin: 50px 0;
     height: 90vh;
@@ -161,6 +163,8 @@ export const Section = styled.section`
 
     .services-text {
         width: 600px;
+        padding: 3% 0 0 0;
+
 
         ul{
             list-style-type: none;

@@ -32,7 +32,7 @@ const Home = () => {
           <Link to="/about">Learn More</Link>
         </div>
       </Section>
-      <Section>
+      <Section style={{ height: '70vh' }}>
         <div>
           <img src="./../../../public/library.jpg" alt="Online Learning" />
         </div>
