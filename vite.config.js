@@ -16,7 +16,7 @@ export default defineConfig({
       "@assets": path.resolve(__dirname, "src", "assets"),
       "@assets/images": path.resolve(__dirname, "src", "assets", "Images"),
       "@pages": path.resolve(__dirname, "src", "Pages"),
-      "public": path.resolve(__dirname, "public"),
+      "@public": path.resolve(__dirname, "public"),
       // "@data": path.resolve(__dirname, "src", "Data"),
     }
   },
@@ -25,5 +25,6 @@ export default defineConfig({
   server: {
     port: 3000,
     strictPort: true,
-  }
+  },
+  base: "/frontend"
 })
