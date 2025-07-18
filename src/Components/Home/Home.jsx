@@ -13,13 +13,13 @@ const Home = () => {
           <Link to="/services#pricing">CTA.</Link>
         </div>
         <ImageBox>
-          <img src="/classroom-grayscale.jpg" alt="hero" />
+          <img src="./classroom-grayscale.jpg" alt="hero" />
         </ImageBox>
       </HeroSection>
       <Section>
         <div className="about-overlay"></div>
         <div>
-          <img src="/classroom.jpg" alt="Classroom" />
+          <img src="./classroom.jpg" alt="Classroom" />
         </div>
         <div>
           <h1>About Us.</h1>
@@ -34,7 +34,7 @@ const Home = () => {
       </Section>
       <Section style={{ height: '70vh' }}>
         <div>
-          <img src="/library.jpg" alt="Online Learning" />
+          <img src="./library.jpg" alt="Online Learning" />
         </div>
         <div className='services-text'>
           <h2>Our Solutions</h2>
