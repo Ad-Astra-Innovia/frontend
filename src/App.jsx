@@ -23,7 +23,7 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route exact path="/about" element={<About />} />
           <Route exact path="/services" element={<Services />} />
-          <Route exact path="*" element={<h1>Not Found</h1>} />
+          <Route exact path="*" element={<Home />} />
         </Routes>
         <Footer />
       </BrowserRouter>
