@@ -8,7 +8,7 @@ const About = () => {
     <Wrapper>
       <HeroSection style={{ height: '90vh'}}>
         <ImageBox  style={{ width: '600px', height: '400px', borderRadius: '5px', alignContent: 'center'}}>
-          <img src='./../../../public/outdoor learning.jpg' alt="" />
+          <img src='./outdoor learning.jpg' alt="" />
         </ImageBox>
         <div className="hero-text">
           <h2>Empowering the Future of Education Through Technology</h2>

@@ -25,9 +25,9 @@ const Home = () => {
           <h1>About Us.</h1>
           <p>At Ad Astra Innovia, we are dedicated to transforming education through technology-driven solutions. Our mission is to bridge the digital gap in schools, enabling institutions to seamlessly integrate online learning, AI-powered tools, and efficient school management systems. By leveraging innovation, we empower schools to adapt, grow, and deliver quality education, no matter the challenges.</p>
           <div className="socials">
-            <a href="https://www.facebook.com"><img src="./../../../public/icons8-facebook-100.png" alt="Facebook" /></a>
-            <a href="https://www.twitter.com"><img src="./../../../public/icons8-x-100.png" alt="Twitter" /></a>
-            <a href="https://www.linkedin.com"><img src="./../../../public/icons8-linkedin-100.png" alt="LinkedIn" /></a>
+            <a href="https://www.facebook.com"><img src="./icons8-facebook-100.png" alt="Facebook" /></a>
+            <a href="https://www.twitter.com"><img src="./icons8-x-100.png" alt="Twitter" /></a>
+            <a href="https://www.linkedin.com"><img src="./icons8-linkedin-100.png" alt="LinkedIn" /></a>
           </div>
           <Link to="/about">Learn More</Link>
         </div>
