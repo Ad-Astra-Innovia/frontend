@@ -1,0 +1,48 @@
+{
+    "services": [
+        {
+            "id" : "uuid() || School Websites & Web Applications",
+            "name" : "School Websites & Web Applications",
+            "img": "/library.jpg",
+            "description": "A school’s online presence is its digital identity. We design and develop custom, mobile-friendly, and easy-to-manage websites and web apps that:",
+            "points" : [
+               "Enable seamless communication between schools, students, and parents.",
+               "Support online applications, fee payments, and event updates",
+               " Integrate with existing school systems for smooth operations."
+            ]
+        },
+        {
+            "id" : "uuid(2) || AI-Powered Learning Assistants",
+            "name" : "AI-Powered Learning Assistants",
+            "img": "/library.jpg",
+            "description": "Education should be personalized and data-driven. Our AI tools provide:",
+            "points" : [
+                "Customized learning paths for students based on performance.",
+                "Instant feedback and adaptive assessments to track progress.",
+                "AI-driven study recommendations to help students excel."
+            ]
+        },
+        {
+            "id" : "uuid(2) || Digital Classrooms & Remote Learning",
+            "name" : "Digital Classrooms & Remote Learning",
+            "img": "/library.jpg",
+            "description": "Keep learning uninterrupted with virtual classrooms that:",
+            "points" : [
+                " Offer live and recorded lessons accessible from anywhere.",
+                " Enable interactive student-teacher engagement with discussion forums",
+                "Provide digital assignment submissions and grading."
+            ]
+        },
+        {
+            "id" : "uuid(2) || Smart School Management System",
+            "name" : "Smart School Management System",
+            "img": "/library.jpg",
+            "description": "service 4 description",
+            "points" : [
+                "Simplify school administration with an all-in-one digital management system that:",
+                "Tracks fees, payroll, and financial records effortlessly.",
+                " Generates real-time reports for informed decision-making."
+            ]
+        }
+    ]
+}
