@@ -35,6 +35,18 @@ body p, body div p, li {
   letter-spacing: 1.02px;
 }
 
+/* styles.css */
+body.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+body.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+
 
 button {
   border-radius: 8px;
