@@ -18,7 +18,7 @@ const ThemeButton = () => {
     const buttonClass = darkMode ? "dark" : "light";
 
   return (
-    <StyledThemeButton className={`theme-button ${buttonClass}`} onClick={() => setDarkMode(!darkMode)}>
+    <StyledThemeButton title={`toggle ${buttonClass} theme`} className={`theme-button ${buttonClass}`} onClick={() => setDarkMode(!darkMode)}>
       <img
           src={darkMode ? sunIcon : moonIcon}
           alt={darkMode ? 'Light Mode' : 'Dark Mode'}

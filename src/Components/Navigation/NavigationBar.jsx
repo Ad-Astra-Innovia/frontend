@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
+import ThemeButton from '@components/ThemeButton/ThemeButton'
 
 const Nav = styled.nav`
     display: flex;
@@ -14,6 +15,9 @@ const Nav = styled.nav`
     margin: 0;
 
         ul {
+            display: flex;
+            align-items: center;
+            justify-content: center;
             align-content: center;
         }
         ul li {
@@ -58,6 +62,7 @@ const NavigationBar = () => {
                 <Link to="/">Ad Astra Innovia</Link>
             </h1>
             <ul>
+                <li><ThemeButton /></li>
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/about">About</Link></li>
                 <li><Link to="/services">Services</Link></li>
