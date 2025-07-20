@@ -8,6 +8,9 @@ import path from 'path';
 export default defineConfig({
   plugins: [react()],
 
+  // Base resolve path.
+  base: "./",
+
   //* absolute path configs.
   resolve: {
     alias: {
@@ -25,6 +28,5 @@ export default defineConfig({
   server: {
     port: 3000,
     strictPort: true,
-  },
-  base: "/frontend"
+  }
 })
