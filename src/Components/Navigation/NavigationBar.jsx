@@ -23,28 +23,36 @@ const Nav = styled.nav`
         ul li {
             display: inline;
             list-style-type: none;
+            font-weight: 500;
+            font-size: 1rem;
         }
         
         /* CTA button */
         ul li.button a {
             cursor: pointer;
             display: inline-block;
-            background-color: hsla(237, 100%, 70%, 0.9);
+            background-color: hsla(237, 100%, 70%, 1);
             color: #fff;
             padding: 10px 20px;
             border-radius: 5px;
         }
 
         ul li.button a:hover {
-            background-color: hsla(237, 100%, 70%, 0.667);
+            background-color: hsla(237, 100%, 70%, 0.5);
             text-decoration: none;
+            border: none;
         }
 
         ul li + li {
             margin-left: 15px;
         }
+        a {
+            color: hsl(237, 100%, 78%);
+            text-decoration: none;
+        }
         a:hover {
-            text-decoration: underline;
+            /* text-decoration: underline; */
+            border-bottom: 2px solid hsla(237, 100%, 78%, 1);
         }
         h1 {
             margin: 16px 0;

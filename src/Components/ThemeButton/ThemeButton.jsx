@@ -1,8 +1,8 @@
 // eslint-disable-next-line no-unused-vars
 import {React, useState, useEffect} from 'react'
 import { StyledThemeButton} from './Button'; // , sunIcon, moonIcon
-import sunIcon from '/icons8-sun-100.png'
-import moonIcon from '/icons8-moon-100.png'
+import sunIcon from '@assets/icons8-sun-100.png'
+import moonIcon from '@assets/icons8-moon-100.png'
 
 const ThemeButton = () => {
     
