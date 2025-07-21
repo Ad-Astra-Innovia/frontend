@@ -39,13 +39,13 @@ body p, body div p, li {
 
 /* styles.css */
 body.light {
-  background-color: whitesmoke;
-  color: #000000;
+  background-color: hsl(0, 0%, 96%);
+  color: hsl(0, 0%, 16%);
 }
 
 body.dark {
-  background-color: #292929;
-  color: #ffffff;
+  background-color: hsl(0, 0%, 16%);
+  color: hsl(0, 0%, 96%);
 }
 
 

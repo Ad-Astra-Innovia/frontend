@@ -45,6 +45,11 @@ export const CardContainer = styled.div`
             border-radius: 5px;
         }
 
+        .text-container {
+            color: black;
+            display: flex;
+        }
+
         h2 {
             margin: 0;
             padding: 0;
