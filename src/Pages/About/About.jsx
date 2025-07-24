@@ -1,6 +1,6 @@
 import 'react'
-import { HeroSection, ImageBox } from '../Home/Home.css'
-import { Wrapper } from '../../Components/GlobalStyles/Containers/Wrapper'
+import { HeroSection, ImageBox } from '@pages/Home/Home.css'
+import { Wrapper } from '@components/GlobalStyles/Containers/Wrapper'
 import { EthosSection, ServicesSection, WorkCarouselSection } from './About.css'
 
 const About = () => {

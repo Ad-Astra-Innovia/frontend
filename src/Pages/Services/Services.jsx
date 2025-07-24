@@ -1,8 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
-import { DivContainer } from '../../Components/GlobalStyles/Containers/Wrapper'
-import { HeroSection, ImageBox } from '../Home/Home.css'
+import { DivContainer } from '@components/GlobalStyles/Containers/Wrapper'
+import { HeroSection, ImageBox } from '@pages/Home/Home.css'
 import ServicesCards from './ServicesCards'
 import { ServiceSection } from './Services.css.js'
 
