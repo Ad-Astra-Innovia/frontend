@@ -69,7 +69,7 @@ export const CardContainer = styled.div`
         }
 
         .cta-button {
-            background-color: hsla(240, 25%, 50%, 1);
+            background-color: hsla(237, 100%, 70%, 1);
             color: white;
             padding: 10px 20px;
             border-radius: 5px;
@@ -79,7 +79,148 @@ export const CardContainer = styled.div`
         }
 
         .cta-button:hover {
-            background-color: hsla(240, 25%, 40%, 1);
+            background-color: hsla(237, 100%, 60%, 1);
+        }
+    }
+`
+
+
+export const EssentialPackContainer = styled.div`
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    /* background-color: #f0f0f0; */
+    /* border-radius: 10px; */
+    /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
+    /* margin: 20px 0; */
+    
+    .essential-pack-title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 50px;
+        letter-spacing: 1px;
+
+        span {
+            font-size: 1.89rem;
+            font-weight: 600;
+            font-family: cursive;
+            letter-spacing: 1.02px;
+            /* color: hsla(211, 100%, 50%, 1); */
+            color: hsla(237, 100%, 70%, 1);
+        }
+    }
+    .three-pack {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+        flex-wrap: wrap;
+
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            /* margin: 10px; */
+            padding: 20px;
+            width: calc(33% - 40px);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .image {
+                width: 100%;
+                height: auto;
+                img.visual {
+                    max-width: 100%;
+                    height: auto;
+                    border-radius: 5px;
+                }
+            }
+
+            .message {
+                text-align: center;
+
+                .vision-text {
+                    font-size: 1rem;
+                    color: hsla(0, 0%, 33%, 1);
+                }
+            }
+        }
+
+         .normal-card {
+            background-color: hsla(0, 0%, 100%, 1);
+            border: 1px solid hsla(0, 0%, 90%, 1);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            max-width: 250px;
+            max-height: 250px;
+            .message {
+                text-align: center;
+                .vision-text {
+                    font-size: 1rem;
+                    color: hsla(0, 0%, 33%, 1);
+                }
+                a {
+                    /* color: hsla(211, 100%, 50%, 1); */
+                    color: hsla(237, 100%, 60%, 1);
+                    text-decoration: none;
+                    font-weight: bold;
+                    margin-top: 10px;
+                    display: inline-block;
+
+                    &:hover {
+                        text-decoration: underline;
+                        color: hsla(211, 100%, 40%, 1);
+                    }
+                }
+            }
+         }
+        
+        .highlighted-card {
+            /* background-color: hsla(211, 100%, 50%, 1); */
+            /* border: 1.9 solid hsla(211, 100%, 40%, 1); */
+            background-color: hsla(237, 100%, 70%, 1);
+            border: 1.9 solid hsla(237, 100%, 60%, 1);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            max-width: 450px;
+            max-height: 500px;
+            min-height: 300px;
+            .message {
+                text-align: center;
+                .vision-text {
+                    font-size: 18px;
+                    color: whitesmoke;
+                }
+                a {
+                    color: hsla(0, 0%, 97%, 1);
+                    /* text-decoration: underline; */
+                    font-weight: bold;
+                    margin-top: 10px;
+                    display: inline-block;
+
+                    &:hover {
+                        text-decoration: underline;
+                        color: hsla(0, 0%, 90%, 1);
+                }
+            }
+        }
+    }
+    }
+
+
+
+    @media (max-width: 768px) {
+        .three-pack {
+            flex-direction: column;
+            align-items: center;
+
+            .card {
+                width: 100%;
+                max-width: 400px;
+            }
         }
     }
 `

@@ -3,8 +3,9 @@
 import React from 'react'
 import { DivContainer } from '@components/GlobalStyles/Containers/Wrapper'
 import { HeroSection, ImageBox } from '@pages/Home/Home.css'
-import ServicesCards from './ServicesCards'
+// import ServicesCards from './ServicesCards'
 import { ServiceSection } from './Services.css.js'
+import EssentialPack from './EssentialPack'
 
 const Services = () => {
   return (
@@ -25,9 +26,10 @@ const Services = () => {
       </HeroSection>
       <ServiceSection>
 
-        <h2 className='heading'>What We Offer</h2>
+        {/* <h2 className='heading'>What We Offer</h2> */}
         {/* services cards here. */}
-        <ServicesCards/>
+        {/* <ServicesCards/> */}
+        <EssentialPack />
 
       </ServiceSection>
 

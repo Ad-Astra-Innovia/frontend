@@ -8,7 +8,7 @@ const ServicesCards = () => {
   
   const [data, setData] = useState([]);
   useEffect(() => {
-    fetch('/serviceData.json')
+    fetch('./serviceData.json')
     .then((response) => response.json())
     .then((data) => setData(data.services))
     .catch((error) => console.error('Error:', error));

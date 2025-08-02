@@ -80,8 +80,12 @@ export const HeroSection = styled.div`
 export const ImageBox = styled.div`
     img {
         width: 550px;
-        height: 350px;
+        height: 450px;
         border-radius: 5px;
+    }
+
+    img.hero-img {
+        height: 350px;
     }
 `
 

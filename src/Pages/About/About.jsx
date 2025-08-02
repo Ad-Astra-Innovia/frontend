@@ -2,12 +2,13 @@ import 'react'
 import { HeroSection, ImageBox } from '@pages/Home/Home.css'
 import { Wrapper } from '@components/GlobalStyles/Containers/Wrapper'
 import { EthosSection, ServicesSection, WorkCarouselSection } from './About.css'
+import ServicesCards from '../Services/ServicesCards'
 
 const About = () => {
   return (
     <Wrapper>
       <HeroSection style={{ height: '90vh'}}>
-        <ImageBox  style={{ width: '600px', height: '400px', borderRadius: '5px', alignContent: 'center'}}>
+        <ImageBox  style={{ width: '550px', height: '450px', borderRadius: '5px', alignContent: 'center'}}>
           <img src='./outdoor learning.jpg' alt="" />
         </ImageBox>
         <div className="hero-text">
@@ -32,11 +33,11 @@ const About = () => {
         </div>
       </EthosSection>
       <ServicesSection>
-        <div>
+        {/* <div>
           <h2>What We Offer.</h2>
           <p>At Ad Astra Innovia, we are committed to providing the best digital solutions for schools, colleges, and universities. Our services include:</p>
 
-          {/* Build cards for the offers. */}
+          //! Build cards for the offers.
           <ul>
             <li>Custom-built websites.</li>
             <li>AI-powered learning assistants.</li>
@@ -44,10 +45,11 @@ const About = () => {
             <li>Learner management systems.</li>
             <li>And more!</li>
           </ul>
-          {/* End cards on offers. */}
+          //! End cards on offers.
 
           <p>Our team of experts will work with you to understand your unique needs and develop a tailored solution that meets your goals. Whether you are looking to improve student engagement, streamline administrative processes, or enhance the learning experience, we have the tools and expertise to help you succeed.</p>
-        </div>
+        </div> */}
+        <ServicesCards/>
       </ServicesSection>
       <WorkCarouselSection>
         <div>

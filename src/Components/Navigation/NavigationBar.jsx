@@ -47,7 +47,7 @@ const Nav = styled.nav`
             margin-left: 15px;
         }
         a {
-            color: hsl(237, 100%, 78%);
+            color: hsla(237, 100%, 70%, 1);
             text-decoration: none;
         }
         a:hover {
@@ -60,6 +60,7 @@ const Nav = styled.nav`
         }
         h1 a:hover {
             text-decoration: none;
+            border: none;
         }
 `
 const NavigationBar = () => {

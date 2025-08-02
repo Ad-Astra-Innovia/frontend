@@ -27,3 +27,7 @@ dist-ssr
 *.sw?
 /h
 /.cspell
+/.github
+/.notebook
+/.qodo
+/.vscode

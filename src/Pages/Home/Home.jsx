@@ -13,7 +13,7 @@ const Home = () => {
           <Link to="/services#pricing">CTA.</Link>
         </div>
         <ImageBox>
-          <img src="./classroom-grayscale.jpg" alt="hero" />
+          <img className="hero-img" src="./classroom-grayscale.jpg" alt="hero" />
         </ImageBox>
       </HeroSection>
       <Section>
