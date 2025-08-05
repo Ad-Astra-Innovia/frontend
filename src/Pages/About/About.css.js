@@ -31,13 +31,7 @@ export const EthosSection = styled.section`
 `
 
 export const ServicesSection = styled(Section)`
-    height: fit-content;
-
-    h2 {
-        color: hsla(238, 84%, 65%, 0.973);
-        font-weight: 600;
-        margin-bottom: 10px;
-    }
+    display: flex;
 `
 
 export const WorkCarouselSection = styled(Section)`

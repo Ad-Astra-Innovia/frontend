@@ -10,7 +10,7 @@ const Home = () => {
           <h1>Transforming Education Through Technology</h1>
           <p>Education is evolving, and so should the way we learn. At Ad Astra Innovia, we provide modern, scalable, and efficient digital solutions tailored for learning institutions. Our goal is to revolutionize education by integrating <strong>AI-powered learning tools, smart web platforms, and seamless school management systems</strong>—ensuring <strong>accessibility, engagement, and resilience</strong> in the face of disruptions.</p>
           <p>Join us in <strong>shaping the future of education with innovative technology</strong> that empowers students, educators, and institutions.</p>
-          <Link to="/services#pricing">CTA.</Link>
+          <Link to="/services#pricing">See Prices</Link>
         </div>
         <ImageBox>
           <img className="hero-img" src="./classroom-grayscale.jpg" alt="hero" />
@@ -26,7 +26,7 @@ const Home = () => {
           <p>At Ad Astra Innovia, we are dedicated to transforming education through technology-driven solutions. Our mission is to bridge the digital gap in schools, enabling institutions to seamlessly integrate online learning, AI-powered tools, and efficient school management systems. By leveraging innovation, we empower schools to adapt, grow, and deliver quality education, no matter the challenges.</p>
           <div className="socials">
             <a href="https://www.facebook.com"><img src="./icons8-facebook-100.png" alt="Facebook" /></a>
-            <a href="https://www.twitter.com"><img src="./icons8-x-100.png" alt="Twitter" /></a>
+            <a href="https://www.x.com"><img src="./icons8-x-100.png" alt="Twitter" /></a>
             <a href="https://www.linkedin.com"><img src="./icons8-linkedin-100.png" alt="LinkedIn" /></a>
           </div>
           <Link to="/about">Learn More</Link>
