@@ -5,7 +5,7 @@ import { DivContainer } from '@components/GlobalStyles/Containers/Wrapper'
 import { HeroSection, ImageBox } from '@pages/Home/Home.css'
 // import ServicesCards from './ServicesCards'
 import { ServiceSection } from './Services.css.js'
-import EssentialPack from './EssentialPack'
+import EssentialPack from './EssentialPack.jsx'
 
 const Services = () => {
   return (
@@ -24,7 +24,7 @@ const Services = () => {
             <img src='a school somewhere in south Africa' alt='happy school child facing camera view smiling about digitized learning.'/>
           </ImageBox>
       </HeroSection>
-      <ServiceSection>
+      <ServiceSection id='pricing'>
 
         {/* <h2 className='heading'>What We Offer</h2> */}
         {/* services cards here. */}

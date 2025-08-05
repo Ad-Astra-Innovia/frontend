@@ -1,48 +1,72 @@
 {
-    "services": [
+    "essential-features": [
         {
-            "id" : "uuid() || School Websites & Web Applications",
-            "name" : "School Websites & Web Applications",
-            "img": "/library.jpg",
-            "description": "A school’s online presence is its digital identity. We design and develop custom, mobile-friendly, and easy-to-manage websites and web apps that:",
-            "points" : [
-               "Enable seamless communication between schools, students, and parents.",
-               "Support online applications, fee payments, and event updates",
-               " Integrate with existing school systems for smooth operations."
-            ]
+            "class": "normal-card",
+            "image": "/react.svg",
+            "title": "Admin Automation.",
+            "message": "We streamline your administrative tasks with automation tools."
         },
         {
-            "id" : "uuid(2) || AI-Powered Learning Assistants",
-            "name" : "AI-Powered Learning Assistants",
-            "img": "/library.jpg",
-            "description": "Education should be personalized and data-driven. Our AI tools provide:",
-            "points" : [
-                "Customized learning paths for students based on performance.",
-                "Instant feedback and adaptive assessments to track progress.",
-                "AI-driven study recommendations to help students excel."
-            ]
+            "class": "highlighted-card",
+            "image": "/react.svg",
+            "title": "Ai Learning.",
+            "message": "We provide AI learning solutions to enhance student intelligence and their learning engagement."
         },
         {
-            "id" : "uuid(2) || Digital Classrooms & Remote Learning",
-            "name" : "Digital Classrooms & Remote Learning",
-            "img": "/library.jpg",
-            "description": "Keep learning uninterrupted with virtual classrooms that:",
-            "points" : [
-                " Offer live and recorded lessons accessible from anywhere.",
-                " Enable interactive student-teacher engagement with discussion forums",
-                "Provide digital assignment submissions and grading."
+            "class": "normal-card",
+            "image": "/react.svg",
+            "title": "Online presence.",
+            "message": "We establish and enhance your online presence through various digital platforms including building a website for your school."
+        }
+    ],
+    "services": {
+        "basic-package": {
+            "class": "normal-card",
+            "image": "image source",
+            "title": "Basic package",
+            "price": 399,
+            "message": "Get started with essential tools to streamline administrative tasks and enhance learning outcomes.",
+            "features" : [
+                "Website Development",
+                "Student Information System (SIS) Integration",
+                "Basic Reporting",
+                "User Management",
+                "Timetable Management"
             ]
         },
-        {
-            "id" : "uuid(2) || Smart School Management System",
-            "name" : "Smart School Management System",
-            "img": "/library.jpg",
-            "description": "service 4 description",
-            "points" : [
-                "Simplify school administration with an all-in-one digital management system that:",
-                "Tracks fees, payroll, and financial records effortlessly.",
-                " Generates real-time reports for informed decision-making."
+        "essential-package": {
+            "class": "highlighted-card",
+            "image": "image source",
+            "title": "Essential package.",
+            "price": 599,
+            "message": "Enhance efficiency with advanced reporting, communication portals, and attendance tracking.",
+            "features" : [
+                "Everything in Basic Package +",
+                "Enhanced Website Features",
+                "Student Information System (SIS) Enhancements",
+                "Advanced User Management",
+                "Learning Management System (LMS) Features",
+                "Content Management System (CMS) Integration",
+                "Advanced Reporting & Analytics",
+                "Parent-Teacher Communication Portal",
+                "Attendance Tracking",
+                "Examination Management"
+            ]
+        },
+        "advanced-package": {
+            "class": "exceptional-card",
+            "image": "image source",
+            "title": "Advanced package.",
+            "price": null,
+            "message": "Unlock the full potential of your institution with custom solutions, LMS integration, and AI-powered analytics.",
+            "features" : [
+                "Everything in Essential Package +",
+                "Custom Software Development",
+                "Learning Management System (LMS) Integration",
+                "AI-Powered Analytics",
+                "Dedicated Support",
+                "Scalable Architecture"
             ]
         }
-    ]
+    }
 }

@@ -18,71 +18,71 @@ export const ServiceSection = styled.section`
     }
 `
 
-export const CardContainer = styled.div`
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 35px;
+// export const CardContainer = styled.div`
+//     display: grid;
+//     grid-template-columns: 1fr 1fr 1fr 1fr;
+//     gap: 35px;
     
-    /* background: hsla(240,25%,50%,1); */
+//     /* background: hsla(240,25%,50%,1); */
 
-    .card {
-        display: flex;
-        flex-direction: column;
-        flex: 1 1 200px;
-        max-width: 600px;
-        height: 650px;
-        padding: 15px;
-        background-color: whitesmoke;
-        border-radius: 15px;
-        box-shadow: 2px 2px 6px black;
+//     .card {
+//         display: flex;
+//         flex-direction: column;
+//         flex: 1 1 200px;
+//         max-width: 600px;
+//         height: 650px;
+//         padding: 15px;
+//         background-color: whitesmoke;
+//         border-radius: 15px;
+//         box-shadow: 2px 2px 6px black;
 
-        img{
-            width: 100%;
-            min-width: 200px;
-            min-height: 200px;
-            max-width: 800px;
-            max-height: 300px;
-            border-radius: 5px;
-        }
+//         img{
+//             width: 100%;
+//             min-width: 200px;
+//             min-height: 200px;
+//             max-width: 800px;
+//             max-height: 300px;
+//             border-radius: 5px;
+//         }
 
-        .text-container {
-            color: black;
-            display: flex;
-        }
+//         .text-container {
+//             color: black;
+//             display: flex;
+//         }
 
-        h2 {
-            margin: 0;
-            padding: 0;
-            padding: 5px 0;
-        }
+//         h2 {
+//             margin: 0;
+//             padding: 0;
+//             padding: 5px 0;
+//         }
 
-        p{
-            margin: 0;
-        }
+//         p{
+//             margin: 0;
+//         }
 
-        ul{
-            margin-top: 0;
+//         ul{
+//             margin-top: 0;
 
-            li {
-                list-style: '🔑 ';
-            }
-        }
+//             li {
+//                 list-style: '🔑 ';
+//             }
+//         }
 
-        .cta-button {
-            background-color: hsla(237, 100%, 70%, 1);
-            color: white;
-            padding: 10px 20px;
-            border-radius: 5px;
-            text-align: center;
-            text-decoration: none;
-            margin-top: 10px;
-        }
+//         .cta-button {
+//             background-color: hsla(237, 100%, 70%, 1);
+//             color: white;
+//             padding: 10px 20px;
+//             border-radius: 5px;
+//             text-align: center;
+//             text-decoration: none;
+//             margin-top: 10px;
+//         }
 
-        .cta-button:hover {
-            background-color: hsla(237, 100%, 60%, 1);
-        }
-    }
-`
+//         .cta-button:hover {
+//             background-color: hsla(237, 100%, 60%, 1);
+//         }
+//     }
+// `
 
 
 export const EssentialPackContainer = styled.div`
@@ -118,7 +118,7 @@ export const EssentialPackContainer = styled.div`
         align-items: center;
         gap: 20px;
         width: 100%;
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
 
         .card {
             background-color: white;
@@ -155,10 +155,17 @@ export const EssentialPackContainer = styled.div`
             background-color: hsla(0, 0%, 100%, 1);
             border: 1px solid hsla(0, 0%, 90%, 1);
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            max-width: 250px;
-            max-height: 250px;
+            max-width: 350px;
+            min-height: 250px;
+            max-height: 350px;
             .message {
                 text-align: center;
+                h2 {
+                    font-size: 1.2rem;
+                    color: hsla(237, 100%, 70%, 1);
+                    font-weight: bold;
+                    margin-bottom: 10px;
+                }
                 .vision-text {
                     font-size: 1rem;
                     color: hsla(0, 0%, 33%, 1);
@@ -173,7 +180,7 @@ export const EssentialPackContainer = styled.div`
 
                     &:hover {
                         text-decoration: underline;
-                        color: hsla(211, 100%, 40%, 1);
+                        color: hsla(237, 100%, 50%, 1);
                     }
                 }
             }
@@ -186,10 +193,18 @@ export const EssentialPackContainer = styled.div`
             border: 1.9 solid hsla(237, 100%, 60%, 1);
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
             max-width: 450px;
-            max-height: 500px;
-            min-height: 300px;
+            max-height: 450px;
+            min-height: 320px;
             .message {
                 text-align: center;
+
+                h2 {
+                    font-size: 1.5rem;
+                    color: hsla(0, 0%, 97%, 1);
+                    font-weight: bold;
+                    margin-bottom: 10px;
+                }
+
                 .vision-text {
                     font-size: 18px;
                     color: whitesmoke;
@@ -204,10 +219,46 @@ export const EssentialPackContainer = styled.div`
                     &:hover {
                         text-decoration: underline;
                         color: hsla(0, 0%, 90%, 1);
+                    }
                 }
             }
         }
-    }
+
+        .exceptional-card{
+            background-color: hsla(237, 100%, 50%, 1);
+            border: 1.9 solid hsla(237, 100%, 70%, 1);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            max-width: 350px;
+            max-height: 350px;
+            min-height: 250px;
+            .message {
+                text-align: center;
+
+                h2 {
+                    font-size: 1.5rem;
+                    color: hsla(0, 0%, 97%, 1);
+                    font-weight: bold;
+                    margin-bottom: 10px;
+                }
+
+                .vision-text {
+                    font-size: 18px;
+                    color: whitesmoke;
+                }
+                a {
+                    color: hsla(0, 0%, 97%, 1);
+                    /* text-decoration: underline; */
+                    font-weight: bold;
+                    margin-top: 10px;
+                    display: inline-block;
+
+                    &:hover {
+                        text-decoration: underline;
+                        color: hsla(0, 0%, 90%, 1);
+                    }
+                }
+            }
+        }
     }
 
 

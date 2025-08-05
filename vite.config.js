@@ -20,6 +20,7 @@ export default defineConfig({
       "@assets/images": path.resolve(__dirname, "src", "assets", "Images"),
       "@pages": path.resolve(__dirname, "src", "Pages"),
       "@public": path.resolve(__dirname, "public"),
+      "@hooks": path.resolve(__dirname, "src", "Hooks")
       // "@data": path.resolve(__dirname, "src", "Data"),
     }
   },

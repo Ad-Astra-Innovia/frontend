@@ -6,7 +6,8 @@
         "@components/*": ["./src/Components/*"],
         "@assets/*": ["./src/assets/*"],
         "@public/*": ["./public/*"],
-        "@pages/*": ["./src/Pages/*"]
+        "@pages/*": ["./src/Pages/*"],
+        "@hooks/*": ["./src/Hooks/*"]
       }
     }
   }
