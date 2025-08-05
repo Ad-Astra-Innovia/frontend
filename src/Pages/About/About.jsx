@@ -1,8 +1,10 @@
 import 'react'
 import { HeroSection, ImageBox } from '@pages/Home/Home.css'
 import { Wrapper } from '@components/GlobalStyles/Containers/Wrapper'
-import { EthosSection, ServicesSection, WorkCarouselSection } from './About.css'
-import ServicesCards from '../Services/ServicesCards'
+import { EthosSection,  WorkCarouselSection } from './About.css'
+// import ServicesCards from '../Services/ServicesCards'
+import EssentialPack from '../Services/EssentialPack'
+import { ServiceSection } from '../Services/Services.css'
 
 const About = () => {
   return (
@@ -32,8 +34,9 @@ const About = () => {
           <p>To empower schools and universities with innovative digital solutions that make education accessible, interactive, and resilient for all students.</p>
         </div>
       </EthosSection>
-      <ServicesSection>
+      <ServiceSection >
         {/* <div>
+        className='services-section'
           <h2>What We Offer.</h2>
           <p>At Ad Astra Innovia, we are committed to providing the best digital solutions for schools, colleges, and universities. Our services include:</p>
 
@@ -49,8 +52,8 @@ const About = () => {
 
           <p>Our team of experts will work with you to understand your unique needs and develop a tailored solution that meets your goals. Whether you are looking to improve student engagement, streamline administrative processes, or enhance the learning experience, we have the tools and expertise to help you succeed.</p>
         </div> */}
-        <ServicesCards/>
-      </ServicesSection>
+        <EssentialPack/>
+      </ServiceSection>
       <WorkCarouselSection>
         <div>
           <ul>
