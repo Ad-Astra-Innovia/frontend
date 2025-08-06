@@ -2,7 +2,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
 import { DivContainer } from '@components/GlobalStyles/Containers/Wrapper'
-import { HeroSection, ImageBox } from '@pages/Home/Home.css'
+// import { HeroSection, ImageBox } from '@pages/Home/Home.css'
 // import ServicesCards from './ServicesCards'
 import { ServiceSection } from './Services.css.js'
 import EssentialPack from './EssentialPack.jsx'
@@ -10,7 +10,7 @@ import EssentialPack from './EssentialPack.jsx'
 const Services = () => {
   return (
     <DivContainer>
-      <HeroSection>
+      {/* <HeroSection style={{height: 'fit-content'}}>
         <div className='hero-text'>
           <h2>Transforming Education Through Innovation</h2>
           <h1>How We Help Education Evolve In Africa.</h1>
@@ -23,7 +23,9 @@ const Services = () => {
           <ImageBox>
             <img src='a school somewhere in south Africa' alt='happy school child facing camera view smiling about digitized learning.'/>
           </ImageBox>
-      </HeroSection>
+      </HeroSection> */}
+
+
       <ServiceSection id='pricing'>
 
         {/* <h2 className='heading'>What We Offer</h2> */}

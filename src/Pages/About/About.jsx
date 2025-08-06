@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import 'react'
 import { HeroSection, ImageBox } from '@pages/Home/Home.css'
 import { Wrapper } from '@components/GlobalStyles/Containers/Wrapper'
@@ -10,7 +11,7 @@ const About = () => {
   return (
     <Wrapper>
       <HeroSection style={{ height: '90vh'}}>
-        <ImageBox  style={{ width: '550px', height: '450px', borderRadius: '5px', alignContent: 'center'}}>
+        <ImageBox>
           <img src='./outdoor learning.jpg' alt="" />
         </ImageBox>
         <div className="hero-text">
@@ -21,7 +22,7 @@ const About = () => {
           <p>We believe that <strong>access to quality education should never be disrupted.</strong> Our mission is to <strong>bridge the digital divide</strong> by equipping schools, colleges, and universities <strong>with affordable, scalable, and user-friendly digital solutions.</strong> By integrating custom-built websites, AI-powered learning assistants, and digital education platforms, we are <strong>ensuring</strong> that <strong>learning institutions can adapt, grow, and thrive in an ever-evolving technological landscape.</strong></p>
           
           {/*Todo: feature to send a pdf quote on services and value exchanged.*/}
-          <a href="/services#pricing">Join the Move</a>
+          <a href="/services">Get Started</a>
         </div>
       </HeroSection>
       <EthosSection>
@@ -34,6 +35,20 @@ const About = () => {
           <p>To empower schools and universities with innovative digital solutions that make education accessible, interactive, and resilient for all students.</p>
         </div>
       </EthosSection>
+      <HeroSection style={{height: 'fit-content', padding: '100px 0 50px'}}>
+          <div className='hero-text'>
+            <h2>Transforming Education Through Innovation</h2>
+            <h1>How We Help Education Evolve In Africa.</h1>
+            <p>
+            Education is evolving, and schools must embrace technology to stay ahead. At Ad Astra Innovia, we provide cutting-edge digital solutions that enhance learning, streamline operations, and future-proof institutions. Whether you're looking to establish a strong online presence, digitize your classrooms, or automate school management, we have the perfect solution for you.
+            </p>
+  
+            {/* <a href='#pricing' className='cta-button'>Request A Quote</a> */}
+          </div>
+          <ImageBox>
+            <img className='hero-img' src='./classroom-grayscale.jpg' alt='happy school child facing camera view smiling about digitized learning.'/>
+          </ImageBox>
+        </HeroSection>
       <ServiceSection >
         {/* <div>
         className='services-section'
@@ -52,7 +67,7 @@ const About = () => {
 
           <p>Our team of experts will work with you to understand your unique needs and develop a tailored solution that meets your goals. Whether you are looking to improve student engagement, streamline administrative processes, or enhance the learning experience, we have the tools and expertise to help you succeed.</p>
         </div> */}
-        <EssentialPack/>
+        <EssentialPack />
       </ServiceSection>
       <WorkCarouselSection>
         <div>

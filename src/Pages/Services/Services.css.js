@@ -100,7 +100,7 @@ export const EssentialPackContainer = styled.div`
     .essential-pack-title {
         font-size: 1.5rem;
         font-weight: bold;
-        margin-bottom: 50px;
+        margin-bottom: 0;
         letter-spacing: 1px;
 
         span {
@@ -112,6 +112,15 @@ export const EssentialPackContainer = styled.div`
             color: hsla(237, 100%, 70%, 1);
         }
     }
+
+    p {
+        font-size: 1rem;
+        color: hsla(0, 0%, 33%, 1);
+        margin: 10px 0 30px;
+        text-align: center;
+        width: 600px;
+    }
+
     .three-pack {
         display: flex;
         justify-content: center;
@@ -147,6 +156,7 @@ export const EssentialPackContainer = styled.div`
                 .vision-text {
                     font-size: 1rem;
                     color: hsla(0, 0%, 33%, 1);
+                    width: 100%;
                 }
             }
         }
